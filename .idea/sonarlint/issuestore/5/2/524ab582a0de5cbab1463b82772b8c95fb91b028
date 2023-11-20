@@ -1,0 +1,8 @@
+
+\python:S112">Replace this generic exception class with a more specific one.(Îí¼ 8Ú½§å¾1
+qpython:S1172"TRename this local variable "cDC" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅäÛ8Û½§å¾1
+ypython:S1173"[Rename this local variable "dataBitMap" to match the regular expression ^[_a-z][a-z0-9_]*$.(‡ÆŒÄ8Û½§å¾1
+tpython:S1171"VRename this local variable "dcObj" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ¯†Õ8Û½§å¾1
+}python:S117:"`Rename this local variable "signedIntsArray" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨Š÷B8Û½§å¾1
+wpython:S1170"TRename this local variable "wDC" to match the regular expression ^[_a-z][a-z0-9_]*$.(ýéÛõûÿÿÿÿ8Û½§å¾1
+xpython:S1542W"TRename function "winEnumHandler" to match the regular expression ^[a-z_][a-z0-9_]*$.(´Äñ·þÿÿÿÿ8Ü½§å¾1
