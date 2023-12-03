@@ -51,10 +51,10 @@ while(True):
     points = attack_button.find(screenshot, 0.7, 'rectangles')
     #points = vision_gunsnbottle.find(screenshot, 0.7, 'points')
 
-    coord_x = wincap.offset_x + points[0][0]
-    coord_y = wincap.offset_y + points[0][1]
+    # coord_x = wincap.offset_x + points[0][0]
+    # coord_y = wincap.offset_y + points[0][1]
 
-    pyautogui.moveTo(coord_x, coord_y)
+    # pyautogui.moveTo(coord_x, coord_y)
 
 
 

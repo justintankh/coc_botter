@@ -8,4 +8,4 @@ class BotState(Enum):
     WAITING = 4
     END = 5
 
-class Bot:
+# class Bot:

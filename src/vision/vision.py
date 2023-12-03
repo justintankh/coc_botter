@@ -24,7 +24,7 @@ class Vision:
         # TM_CCOEFF, TM_CCOEFF_NORMED, TM_CCORR, TM_CCORR_NORMED, TM_SQDIFF, TM_SQDIFF_NORMED
         self.method = method
 
-    def find(self, haystack_img, threshold=0.5, debug_mode=None):
+    def find(self, haystack_img, threshold=0.5, debug_mode=None) -> list[tuple[int, int]]:
         # run the OpenCV algorithm
         haystack_gray = cv.cvtColor(haystack_img, cv.COLOR_BGR2GRAY)
         result = cv.matchTemplate(haystack_gray, self.object_img, self.method)
@@ -37,8 +37,8 @@ class Vision:
         locations = list(zip(*locations[::-1]))
 
         # Set max point as the first in the list
-        locations.remove(max_loc)
-        locations.insert(0, max_loc)
+        # locations.remove(max_loc)
+        # locations.insert(0, max_loc)
 
         # You'll notice a lot of overlapping rectangles get drawn. We can eliminate those redundant
         # locations by using groupRectangles().
